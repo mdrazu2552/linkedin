@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+img{
+	max-width: 100%;
+}
+.mid{
+	width: 900px;
+	margin: auto;
+}
+.clear::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.py{
+	padding: 50px 0;
+}
+.pt{
+	padding-top: 30px;
+}
+.pb{
+	padding-bottom: 40px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+/* header-section css */
+.header-section {
+    background-color: #333333;
+    padding: 20px 0;
+}
+.header-left{
+	width: 30%;
+}
+.header-right{
+	width: 70%;
+}
+
+.header-left img {
+    display: inline-block;
+    margin-left: 93px;
+}
+
+
+
+.header-right input {
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.header-right button {
+    background: #888888;
+    padding: 3px 11px;
+    border-radius: 4px;
+	border: 1px solid #a7a7a7;
+	cursor: pointer;
+}
+.header-right a {
+    color: #999;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    right: 56px;
+    top: 11px;
+}
+.header-right a:hover{
+	text-decoration: underline;
+}
+/* joining-section css */
+.joining-section{
+	background-image: url(./images/user.jpg);
+	padding: 32px 0;
+}
+.joining-box {
+    width: 461px;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.joining-box h2 {
+    color: #333;
+	margin-bottom: 13px;
+	text-align: center;
+}
+.joining-box h5 {
+    color: #555;
+    font-size: 18px;
+	margin-bottom: 37px;
+	text-align: center;
+}
+.joining-box input{
+	width: 100%;
+	padding: 7px;
+	background: #fdfdfd;
+    color: #434649;
+    border: 1px solid #BFBFBF;
+	box-sizing: border-box;
+}
+.joining-box label {
+    color: #666;
+    display: block;
+    font-size: 15px;
+    margin: 6px 0;
+}
+.joining-box span {
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+.joining-box span a {
+	color: #000;
+	transition: .4s;
+}
+.joining-box span a:hover{
+	color:rgb(98, 98, 214);
+	text-decoration: underline;
+}
+.joining-btn a {
+    display: block;
+    text-align: center;
+    background: #f6e312;
+    padding: 6px 0;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 20px;
+    border: 1px solid #e9ac1a;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+	transition: .4s;
+	cursor: pointer;
+}
+.joining-btn a:hover{
+	background-color: #eddb11;
+}
+/* footer 1 css */
+.footer-1-section{
+	background-color: #333333;
+}
+.footer-1-section a:hover{
+	text-decoration: underline;
+}
+.footer-1-top {
+    padding: 20px 0;
+}
+.f-box-top {
+    margin-bottom: 10px;
+}
+.f-box-top label {
+    color: #999;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.f-box-top input {
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 7px;
+    width: 168px;
+}
+.f-box-top .submit {
+    background-color: #8d8d8d;
+    width: 61px;
+}
+
+
+
+.f-box-bottom p {
+    color: #ccc;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.bottom-menu ul li{
+	display: inline-block;
+}
+.f-box-bottom a {
+    color: #006fa6;
+    font-size: 12px;
+    padding-right: 3px;
+    display: block;
+}
+
+.bottom-menu ul li span a {
+    color: #ccc;
+    font-size: 13px;
+    border-left: 1px solid #888;
+    padding-left: 10px;
+}
+.bb {
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+    position: relative;
+    top: 30px;
+}
+
+/* footer-1-bottom css */
+.footer-1-bottom {
+    padding-bottom: 69px;
+}
+.footer-1-bottom-left{
+	width: 50%;
+}
+.footer-1-bottom-left-top {
+    margin-bottom: 15px;
+    margin-top: 18px;
+}
+.footer-1-bottom-left h4 {
+    color: #ccc;
+    margin-bottom: 0px;
+}
+.footer-1-bottom-left li {
+    display: inline-block;
+}
+.footer-1-bottom-left li a {
+    color: #ccc;
+    font-size: 13px;
+    padding-right: 7px;
+    border-right: 1px solid #666;
+}
+.footer-1-bottom-right{
+	width: 50%;
+}
+/* footer-2-section css */
+.footer-2-section {
+    background-color: #000000;
+    padding: 22px 0;
+}
+
+.footer-2-section .left {
+    color: #ddd;
+    font-size: 14px;
+    margin: 0 3px;
+}
+.footer-2-section li{
+	display: inline-block;
+}
+.footer-2-section li a {
+    color: #fff;
+    padding-right: 12px;
+}
+.footer-2-section li a:hover{
+	text-decoration: underline;
+}
+
